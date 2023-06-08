@@ -51,12 +51,12 @@ const App = () => {
       
       <div className="grid grid-cols-4 gap-1 lg:grid-cols-3">
           
-                <div className="col-span-2 col-end-4 bg-cyan-200 h-32">
+                <div className="col-span-2 lg:col-end-4 bg-cyan-200 h-32">
                   <h2 className="font-bold pl-4 pb-2 pt-4 text-left">
                         Comunicador audiovisual
                     </h2>
                   </div>
-                  <div className="col-span-2 col-start-2 bg-violet-200 h-32">
+                  <div className="col-span-2 lg:col-start-2 bg-violet-200 h-32">
                   <h2 className="font-bold pl-4 pb-2 pt-4 text-left">
                         Desarrollo web
                     </h2>
