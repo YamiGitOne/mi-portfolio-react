@@ -13,11 +13,11 @@ const App = () => {
           <p className="text-center pb-2 pt-2 text-white"> sencillas para tus proyectos</p>
         </div>
        
-        <div className="container md:container">
+     
 
         <div className="grid grid-cols-1 gap-1 lg:grid-cols-3 mb-1">
         <div className="grid grid-rows-1 grid-flow-col gap-2">
-              <div className="bg-teal-200 h-152">
+              <div className="bg-teal-200 h-32">
               <h2 className="font-bold pl-2 pb-2 pt-4 text-center">
                 Diseño gráfico
               </h2>
@@ -64,7 +64,7 @@ const App = () => {
           
 </div>
 
-    </div>
+    
 
      {/* <div className="col-end-6 col-span-6 bg-stone-50 lg:h-52 sm:col-span-4 sm:h-1/2">
           <div className="min-h-screen bg-contain bg-no-repeat bg-[url('./assets/images/yami1-1.jpg')] rounded-full ">
