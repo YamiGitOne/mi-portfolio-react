@@ -52,14 +52,15 @@ const App = () => {
       <div className="grid grid-cols-4 gap-1 lg:grid-cols-3">
           
                 <div className="col-span-2 lg:col-end-4 bg-cyan-200 h-32">
-                  <h2 className="font-bold pl-4 pb-2 pt-4 text-left">
-                        Comunicador audiovisual
-                    </h2>
+                  <p className="pl-4 pb-4 pt-4 text-center">
+                  Uso herramientas de la suite de Adobe para el retoque fotográfico, diseño de logos, botones para las páginas web, gif
+                    </p>
+                    {/* <MiFirstButton /> */}
                   </div>
                   <div className="col-span-2 lg:col-start-2 bg-violet-200 h-32">
-                  <h2 className="font-bold pl-4 pb-2 pt-4 text-left">
-                        Desarrollo web
-                    </h2>
+                  <p className="pl-4 pb-2 pt-4 text-center">
+                  Una destreza añadida consiste en el desarrollo de páginas web mediante el uso de HTML, CSS, JAVASCRIPT, MSQL junto a otras herramientas...
+                    </p>
                   </div>
           
 </div>
