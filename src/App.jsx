@@ -27,7 +27,7 @@ const App = () => {
         <div className="grid grid-rows-1 grid-flow-col gap-2">
               <div className="bg-teal-200 p-6">
               <SubTitle subtitle="Diseño gráfico" />
-              <p className="text-center">Diseño de Logos, Banners, Infografías, Vectorización de imágenes, Texturas <Button text="Ver más" /></p>
+              <p className="text-center">Diseño de Logos, Banners, Infografías, Vectorización de imágenes, Texturas {/* <Button text="Ver más" /> */}</p>
               </div>
           </div>
 
