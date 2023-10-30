@@ -1,4 +1,4 @@
-import CircularLoader from './CircularLoader';
+
 const skillsData = [
   { name: 'HTML', icon: '🌐', description: 'HyperText Markup Language' },
   { name: 'CSS', icon: '🎨', description: 'Cascading Style Sheets' },
@@ -14,7 +14,7 @@ const Skills = () => {
           <li key={index} className="flex items-center">
             <span className="text-2xl pr-2">{skill.icon}</span>
             <div className="flex items-center justify-center h-screen">
-            <CircularLoader />
+
             </div>
             <div>
               <h3 className="text-lg font-medium">{skill.name}</h3>
