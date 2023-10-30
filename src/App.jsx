@@ -57,7 +57,7 @@ const App = () => {
       
       <div className="grid grid-cols-4 gap-1 lg:grid-cols-3">
           
-                <div className="col-span-2 lg:col-end-4 bg-cyan-200 p-6">
+                <div className="col-span-2 lg:col-end-4 bg-cyan-200 p-6 text-center">
                 <SubTitle subtitle="Experiencia" />
                 <span className="text-center">2019-2023</span>
                 <SubTitle subtitle="Dynamic Opengov Thecnologies" />
