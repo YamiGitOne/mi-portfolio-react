@@ -3,13 +3,11 @@ const skillsData = [
   { name: 'CSS', icon: '🎨', description: 'Cascading Style Sheets' },
   { name: 'JavaScript', icon: '🚀', description: 'Programming Language' },
   { name: 'React', icon: '⚛️', description: 'JavaScript Library' },
-  // Agrega más habilidades según tus necesidades
 ];
 
 const Skills = () => {
   return (
     <div className="p-4">
-      <h2 className="text-2xl font-semibold mb-4">Skills</h2>
       <ul className="space-y-4">
         {skillsData.map((skill, index) => (
           <li key={index} className="flex items-center">
