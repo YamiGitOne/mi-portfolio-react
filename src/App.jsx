@@ -25,9 +25,6 @@ const App = () => {
         <div className="grid grid-cols-1 gap-1 lg:grid-cols-3 mb-1 -mt-8 inline-block align-middle">
         <div className="grid grid-rows-1 grid-flow-col gap-2">
               <div className="bg-teal-200 p-6">
-                  <div className="w-24 h-24 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-opacity-60">
-                    <strong className="text-2xl text-center">5</strong>
-                  </div>
                   <p className="text-center pt-4">Diseño de interfaces web a través de lenguajes de marca y lenguajes de programación, desde la arquitectura hasta el funcionamiento. Licenciada en Comunicación audiovisual con diplomatura en desarrollo web, en continuo aprendizaje como es lógico en mi área. Partiendo del diseño gráfico, maquetación con diferentes herramientas y desarrollo mediante el uso de Frameworks además Wordpress y otros CMS.</p>
               </div>
           </div>
@@ -59,6 +56,9 @@ const App = () => {
       
       <div className="grid grid-cols-4 gap-1 lg:grid-cols-3 text-center">
               <div className="col-span-2 lg:col-end-4 bg-gray-900 p-6">
+              <div className="w-24 h-24 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-opacity-60">
+                    <strong className="text-2xl text-center">5</strong>
+                  </div>
               <SubTitle
               className="text-white" 
               subtitle="Experiencia" 
