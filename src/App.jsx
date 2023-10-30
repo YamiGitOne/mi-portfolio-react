@@ -56,9 +56,14 @@ const App = () => {
 
       
       <div className="grid grid-cols-4 gap-1 lg:grid-cols-3">
-          
+              <div className="col-span-2 lg:col-end-4 bg-gray-900 p-6 text-center">
+              <SubTitle
+              className="text-white" 
+              subtitle="Experiencia" 
+              
+              />
+                </div>
                 <div className="col-span-2 lg:col-end-4 bg-cyan-200 p-6 text-center">
-                <SubTitle subtitle="Experiencia" />
                 <span className="text-center">2019-2023</span>
                 <SubTitle subtitle="Dynamic Opengov Thecnologies" />
                     <p className="text-center">En Ogov realizo actividades vinculadas a la creación diseño y desarrollo front end, maquetación visual, 

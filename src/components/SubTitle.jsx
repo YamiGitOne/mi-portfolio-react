@@ -1,11 +1,15 @@
-const SubTitle = ({subtitle}) => {
+import classNames from 'classnames';
+
+const SubTitle = ({ subtitle, className }) => {
+  const baseClasses = "font-bold pl-2 pb-2 pt-4 text-center lg:text-2xl";
+  const combinedClasses = classNames(baseClasses, className);
+
+
   return (
     <>
-    <h2 className="font-bold pl-2 pb-2 pt-4 text-center lg:text-2xl">
-                {subtitle}
-              </h2>
+    <h2 className={combinedClasses}>{subtitle}</h2>
     </>
   )
 }
 
-export default SubTitle
+export default SubTitle;
