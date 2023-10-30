@@ -13,9 +13,6 @@ const Skills = () => {
         {skillsData.map((skill, index) => (
           <li key={index} className="flex items-center">
             <span className="text-2xl pr-2">{skill.icon}</span>
-            <div className="flex items-center justify-center h-screen">
-
-            </div>
             <div>
               <h3 className="text-lg font-medium">{skill.name}</h3>
               <p className="text-gray-600">{skill.description}</p>
