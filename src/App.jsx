@@ -61,16 +61,14 @@ const App = () => {
                 <div className="col-span-2 lg:col-end-4 bg-cyan-200 p-6">
                 <SubTitle subtitle="Experiencia" />
                 <span>2019-2023</span>
-                  <p className="text-2xl pl-4 pb-4 pt-4 text-center">
-                      Dynamic Opengov Thecnologies
-                    </p>
+                <SubTitle subtitle="Dynamic Opengov Thecnologies" />
                     <p className="text-center">En Ogov realizo actividades vinculadas a la creación diseño y desarrollo front end, maquetación visual, 
                       mantenimiento y optimización de sitios web e interfaces de usuario, implemento prácticas que incluyen estructuras, 
                       bases de datos, adaptabilidad, SEO Onpage así como también de accesibilidad, además de la gestión de incidencias del mismo tipo.</p>
                   </div>
                   <div className="col-span-2 lg:col-start-2 bg-violet-200 p-6">
                   <span>2017-2023</span>
-                  <p className="text-2xl pl-4 pb-4 pt-4 text-center">
+                  <p className="text-md pl-4 pb-4 pt-4 text-center">
                       Gomezlee Marketing
                     </p>
                     <p className="text-center">En Gomezlee Marketing realizo actividades vinculadas a la creación diseño y desarrollo front end enfocado al marketing. 
