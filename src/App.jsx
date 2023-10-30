@@ -3,6 +3,7 @@ import Title from "./components/Title";
 import SubTitle from "./components/SubTitle";
 import AccountImage from "./components/AccountImage";
 import SkillsData from "./components/SkillsData";
+import CircularProgressBar from "./components/CircularProgressBar";
 
 const App = () => {
   return (
@@ -71,6 +72,7 @@ const App = () => {
                 <SubTitle subtitle="Skills" />
                     <p className="text-center">imagen</p>
                     <SkillsData />
+                    <CircularProgressBar />
                   </div>
                 <div className="col-span-2 lg:col-end-4 bg-cyan-200 p-6">
                 <span className="text-center">2019-2023</span>
