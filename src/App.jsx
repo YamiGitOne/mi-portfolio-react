@@ -78,6 +78,11 @@ const App = () => {
                     <p className="text-center">En Gomezlee Marketing realizo actividades vinculadas a la creación diseño y desarrollo front end enfocado al marketing. 
                     Landing pages para conversión mantenimiento y optimización de sitios web de grandes marcas.</p>
                   </div>
+                  <div className="row-span-3 col-span-2 bg-yellow-100 p-6">
+                <span className="text-center"></span>
+                <SubTitle subtitle="Skills" />
+                    <p className="text-center">imagen</p>
+                  </div>
           
 </div>
 
