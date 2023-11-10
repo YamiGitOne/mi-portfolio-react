@@ -1,11 +1,11 @@
-import { FaLaravel } from 'react-icons/fa'
+import LaravelIcon from "./icons/LaravelIcon";
 
 const skillsData = [
   { name: 'HTML', icon: '🌐' },
   { name: 'CSS', icon: '🎨' },
   { name: 'JavaScript', icon: '🚀' },
   { name: 'React', icon: '⚛️' },
-  { name: 'Laravel', icon: <FaLaravel/> },
+  { name: 'Laravel', icon: <LaravelIcon /> },
   { name: 'Tailwind css', icon: '' },
 ];
 
