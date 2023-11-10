@@ -1,4 +1,5 @@
 import LaravelIcon from "./icons/LaravelIcon";
+import TailwindIcon from "./icons/TailwindIcon";
 
 const skillsData = [
   { name: 'HTML', icon: '🌐' },
@@ -6,7 +7,7 @@ const skillsData = [
   { name: 'JavaScript', icon: '🚀' },
   { name: 'React', icon: '⚛️' },
   { name: 'Laravel', icon: <LaravelIcon /> },
-  { name: 'Tailwind css', icon: '' },
+  { name: 'Tailwind css', icon: <TailwindIcon /> },
 ];
 
 const Skills = () => {
