@@ -5,7 +5,7 @@ const skillsData = [
   { name: 'CSS', icon: '🎨' },
   { name: 'JavaScript', icon: '🚀' },
   { name: 'React', icon: '⚛️' },
-  { name: 'Laravel', icon: FaLaravel },
+  { name: 'Laravel', icon: <FaLaravel/> },
   { name: 'Tailwind css', icon: '' },
 ];
 
