@@ -3,7 +3,6 @@ import Title from "./components/Title";
 import SubTitle from "./components/SubTitle";
 import AccountImage from "./components/AccountImage";
 import SkillsData from "./components/SkillsData";
-import CircularProgressBar from "./components/CircularProgressBar";
 
 const App = () => {
   return (
