@@ -1,9 +1,12 @@
+import { FaLaravel } from 'react-icons/fa'
 
 const skillsData = [
   { name: 'HTML', icon: '🌐' },
   { name: 'CSS', icon: '🎨' },
   { name: 'JavaScript', icon: '🚀' },
   { name: 'React', icon: '⚛️' },
+  { name: 'Laravel', icon: FaLaravel },
+  { name: 'Tailwind css', icon: '' },
 ];
 
 const Skills = () => {
