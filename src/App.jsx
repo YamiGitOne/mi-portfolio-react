@@ -55,8 +55,8 @@ const App = () => {
       </div>
 
       
-      <div className="grid grid-cols-4 gap-1 lg:grid-cols-3 text-center">
-              <div className="col-span-4 lg:col-end-4 bg-gray-100 p-6 pt-4">
+      <div className="grid grid-cols-4 gap-1 lg:grid-cols-3 text-center bg-gray-100">
+              <div className="col-span-4 lg:col-end-4 bg-white p-6 pt-4">
               <div className="w-24 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-opacity-60 -mt-14 py-4 float-right shadow-md">
                     <strong className="text-4xl text-center pt-4">5</strong><br/><small>años de<br/>experiencia</small>
                   </div>

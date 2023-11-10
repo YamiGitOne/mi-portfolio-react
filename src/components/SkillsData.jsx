@@ -21,7 +21,7 @@ const Skills = () => {
     <div className="p-4 text-center">
       <ul className="space-y-4">
         {skillsData.map((skill, index) => (
-          <li key={index} className="bg-gray-100 p-4">
+          <li key={index} className="bg-white p-4">
             <span className="text-2xl">{skill.icon}</span>
             <div>
               <h3 className="text-lg font-medium">{skill.name}</h3>
