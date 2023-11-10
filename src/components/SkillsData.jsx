@@ -1,4 +1,5 @@
 import Progress from "./Progress";
+import BootsrapIcon from "./icons/BootsrapIcon";
 import LaravelIcon from "./icons/LaravelIcon";
 import PhpIcon from "./icons/PhpIcon";
 import TailwindIcon from "./icons/TailwindIcon";
@@ -11,6 +12,7 @@ const skillsData = [
   { name: 'PHP', icon: <PhpIcon />, progressValue: 60 },
   { name: 'Laravel', icon: <LaravelIcon />, progressValue: 30 },
   { name: 'Tailwind css', icon: <TailwindIcon />, progressValue: 50},
+  { name: 'Bootsrap', icon: <BootsrapIcon />, progressValue: 90 },
 ];
 
 const Skills = () => {
