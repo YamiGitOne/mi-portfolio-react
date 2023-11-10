@@ -66,8 +66,8 @@ const App = () => {
               />
                 </div>
                 <div className="row-span-3 col-span-2 p-6 mx-auto">
-                <span className="text-center"></span>
-                <SubTitle subtitle="Skills" />
+                <span className="text-center"></span> 
+                <SubTitle subtitle="Skills Desarrollo FrontEnd" />
                     <SkillsData />
                   </div>
                 <div className="col-span-2 lg:col-end-4 bg-cyan-200 p-6">
