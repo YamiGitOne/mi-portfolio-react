@@ -3,6 +3,7 @@ import Title from "./components/Title";
 import SubTitle from "./components/SubTitle";
 import AccountImage from "./components/AccountImage";
 import SkillsData from "./components/SkillsData";
+import SkillsDisplay from "./components/SkillsDisplay";
 
 const App = () => {
   return (
@@ -20,7 +21,7 @@ const App = () => {
           <Title 
           text="Diseño soluciones"
           />
-          <p className="text-left pb-2 pt-2 text-white"> sencillas para tus proyectos</p>
+          <p className="text-left font-sans pb-2 pt-2 text-white"> sencillas para tus proyectos</p>
         </div>
        </div>
      
@@ -28,7 +29,7 @@ const App = () => {
         <div className="grid grid-cols-1 gap-1 lg:grid-cols-3 mb-1 -mt-8 inline-block align-middle">
         <div className="grid grid-rows-1 grid-flow-col gap-2">
               <div className="bg-teal-200 dark:bg-gray-700 dark:text-white p-6">
-                  <p className="text-center pt-4">Diseño de interfaces web a través de lenguajes de marca y lenguajes de programación, desde la arquitectura hasta el funcionamiento. Licenciada en Comunicación audiovisual con diplomatura en desarrollo web, en continuo aprendizaje como es lógico en mi área. Partiendo del diseño gráfico, maquetación con diferentes herramientas y desarrollo mediante el uso de Frameworks además Wordpress y otros CMS.</p>
+                  <p className="font-sans text-center pt-4">Diseño de interfaces web a través de lenguajes de marca y lenguajes de programación, desde la arquitectura hasta el funcionamiento. Licenciada en Comunicación audiovisual con diplomatura en desarrollo web, en continuo aprendizaje como es lógico en mi área. Partiendo del diseño gráfico, maquetación con diferentes herramientas y desarrollo mediante el uso de Frameworks además Wordpress y otros CMS.</p>
               </div>
           </div>
 
@@ -41,7 +42,7 @@ const App = () => {
                   <SubTitle subtitle="Diseño web" />
                     <p className="text-center">Destreza en el uso de herramientas de diseño y maquetación de la suite de Adobe tales como Illustrator, Photoshop así como también Figma, Canva </p>
                     <SubTitle subtitle="Diseño gráfico" />
-                    <p className="text-center">Diseño de Logos, Banners, Infografías, Vectorización de imágenes, Texturas {/* <Button text="Ver más" /> */}</p>
+                    <p className="font-sans text-center">Diseño de Logos, Banners, Infografías, Vectorización de imágenes, Texturas {/* <Button text="Ver más" /> */}</p>
                   
                   </div>
           </div>
@@ -50,15 +51,15 @@ const App = () => {
           <div className="grid grid-rows-1 grid-flow-col gap-2">   
             <div className="bg-teal-200 dark:bg-gray-900 dark:text-white p-6">
             <SubTitle subtitle="Desarrollo web" />
-                  <p className="text-center">Desarrollo de páginas web mediante el uso de HTML, CSS, JAVASCRIPT, PHP, MSQL, Frameworks como React, Laravel o con CMS como Wordpress, Drupal...</p>
+                  <p className="font-sans text-center">Desarrollo de páginas web mediante el uso de HTML, CSS, JAVASCRIPT, PHP, MSQL, Frameworks como React, Laravel o con CMS como Wordpress, Drupal...</p>
               </div> 
           </div>  
 
       </div>
 
       
-      <div className="grid grid-cols-4 gap-1 lg:grid-cols-3 text-center bg-gray-100">
-              <div className="col-span-4 lg:col-end-4 bg-white dark:bg-gray-900 p-6 pt-8 lg:pt-4">
+      <div className="grid grid-cols-4 gap-1 lg:grid-cols-3 text-center bg-gray-600">
+              <div className="col-span-4 lg:col-end-4 bg-gray-500 text-white dark:bg-gray-900 p-6 pt-8 lg:pt-4">
               <div className="w-24 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-opacity-60 dark:via-gray-900 dark:to-pink-900 -mt-14 py-4 float-right shadow-md ">
                     <strong className="text-4xl text-center dark:text-white pt-4">5</strong><br/><small className="dark:text-white">años de<br/>experiencia</small>
                   </div>
@@ -69,23 +70,30 @@ const App = () => {
                 </div>
                 <div className="row-span-3 col-span-2 p-6 mx-auto">
                 <span className="text-center"></span> 
-                <SubTitle subtitle="Skills Desarrollo FrontEnd" />
+                <SubTitle 
+                subtitle="Skills Desarrollo FrontEnd" 
+                className="text-white dark:text-white"
+                />
                     <SkillsData 
                     className="dark:text-white"
                     />
                   </div>
-                <div className="col-span-2 lg:col-end-4 bg-cyan-200 dark:bg-gray-700 dark:text-white p-6">
-                <span className="text-center">2019-2023</span>
-                <SubTitle subtitle="Dynamic Opengov Thecnologies" />
-                    <p className="text-center">En Ogov realizo actividades vinculadas a la creación diseño y desarrollo front end, maquetación visual, 
-                      mantenimiento y optimización de sitios web e interfaces de usuario, implemento prácticas que incluyen estructuras, 
-                      bases de datos, adaptabilidad, SEO Onpage así como también de accesibilidad, además de la gestión de incidencias del mismo tipo.</p>
+                  
+                <div className="col-span-2 bg-gray-700 shadow-lg dark:bg-gray-700 dark:text-white p-6">
+                <SkillsDisplay />
                   </div>
-                  <div className="col-span-2 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
+                  <div className="col-span-1 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
                   <span className="text-center">2017-2023</span>
                   <SubTitle subtitle="Gomezlee Marketing" />
-                    <p className="text-center">En Gomezlee Marketing realizo actividades vinculadas a la creación diseño y desarrollo front end enfocado al marketing. 
+                    <p className="font-sans text-center">En Gomezlee Marketing realizo actividades vinculadas a la creación diseño y desarrollo front end enfocado al marketing. 
                     Landing pages para conversión mantenimiento y optimización de sitios web de grandes marcas.</p>
+                  </div>
+                  <div className="col-span-1 lg:col-end-4 bg-cyan-200 dark:bg-gray-700 dark:text-white p-6">
+                <span className="text-center">2019-2023</span>
+                <SubTitle subtitle="Dynamic Opengov Thecnologies" />
+                    <p className="font-sans text-center">En Ogov realizo actividades vinculadas a la creación diseño y desarrollo front end, maquetación visual, 
+                      mantenimiento y optimización de sitios web e interfaces de usuario, implemento prácticas que incluyen estructuras, 
+                      bases de datos, adaptabilidad, SEO Onpage así como también de accesibilidad, además de la gestión de incidencias del mismo tipo.</p>
                   </div>
                   
           
