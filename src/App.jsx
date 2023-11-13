@@ -65,7 +65,7 @@ const App = () => {
       
       <div className="grid grid-cols-4 gap-1 lg:grid-cols-3 text-center bg-gray-600">
               <div className="col-span-4 lg:col-end-4 bg-gray-500 text-white dark:bg-gray-900 p-6 pt-8 lg:pt-4">
-              <div className="w-24 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-opacity-60 dark:via-gray-900 dark:to-pink-900 -mt-14 py-4 float-right shadow-md ">
+              <div className="w-24 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-opacity-60 dark:via-gray-900 dark:to-pink-900 -mt-12 py-4 float-right shadow-md ">
                     <strong className="text-4xl text-center dark:text-white pt-4">5</strong><br/><small className="dark:text-white">años de<br/>experiencia</small>
                   </div>
               <SubTitle 
