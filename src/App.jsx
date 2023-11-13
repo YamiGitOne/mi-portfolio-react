@@ -38,11 +38,12 @@ const App = () => {
                 <SubTitle subtitle="Comunicador audiovisual" />
                 <p className="text-center">Dentro de las competencias adquiridas en mi carrera se encuentran la fotografía, edición de videos, guiones para radio cine y tv, locución de radio y el manejo de programas de edición entre los que destaca Adobe Premiere, After Effects</p>
                   </div>
+
                   <div className="col-span-2 col-end-4 gap-2 bg-violet-200 dark:bg-gray-700 dark:text-white p-6">
                   <SubTitle subtitle="Diseño web" />
                     <p className="text-center">Destreza en el uso de herramientas de diseño y maquetación de la suite de Adobe tales como Illustrator, Photoshop así como también Figma, Canva </p>
-                    <SubTitle subtitle="Diseño gráfico" />
-                    <p className="font-sans text-center">Diseño de Logos, Banners, Infografías, Vectorización de imágenes, Texturas {/* <Button text="Ver más" /> */}</p>
+                    
+                    
                   
                   </div>
           </div>
@@ -50,8 +51,12 @@ const App = () => {
 
           <div className="grid grid-rows-1 grid-flow-col gap-2">   
             <div className="bg-teal-200 dark:bg-gray-900 dark:text-white p-6">
+            
             <SubTitle subtitle="Desarrollo web" />
-                  <p className="font-sans text-center">Desarrollo de páginas web mediante el uso de HTML, CSS, JAVASCRIPT, PHP, MSQL, Frameworks como React, Laravel o con CMS como Wordpress, Drupal...</p>
+                  <p className="font-sans text-center">Desarrollo de páginas web mediante el uso de HTML, CSS, JAVASCRIPT, PHP, MSQL, MongoDB, GraphQL, JAVA, GIT, Frameworks como React, Angular, Laravel o con CMS como Wordpress, Drupal...</p>
+              
+                  <SubTitle subtitle="Diseño gráfico" />
+                    <p className="font-sans text-center">Diseño de Logos, Banners, Infografías, Vectorización de imágenes, Texturas {/* <Button text="Ver más" /> */}</p>
               </div> 
           </div>  
 
@@ -89,15 +94,21 @@ const App = () => {
                   <div className="col-span-2 lg:col-span-1 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
                   <span className="text-center">2017-2023</span>
                   <SubTitle subtitle="Gomezlee Marketing" />
-                    <p className="font-sans text-center">En Gomezlee Marketing realizo actividades vinculadas a la creación diseño y desarrollo front end enfocado al marketing. 
-                    Landing pages para conversión mantenimiento y optimización de sitios web de grandes marcas.</p>
+                    <p className="font-sans text-center">Actividades vinculadas a la creación diseño y desarrollo front end enfocado al marketing. Usando HTML, CSS, JAVASCRIPT, WORDPRESS. Diseño gráfico usando la suite de Adobe y labores de SEO, analíticas orgánicas, keywords y redes sociales
+                    .También Landing pages para conversión mantenimiento y optimización de sitios web de grandes marcas.</p>
                   </div>
                   <div className="col-span-2 lg:col-span-1 lg:col-end-4 bg-cyan-200 dark:bg-gray-700 dark:text-white p-6">
                 <span className="text-center">2019-2023</span>
                 <SubTitle subtitle="Dynamic Opengov Thecnologies" />
-                    <p className="font-sans text-center">En Ogov realizo actividades vinculadas a la creación diseño y desarrollo front end, maquetación visual, 
-                      mantenimiento y optimización de sitios web e interfaces de usuario, implemento prácticas que incluyen estructuras, 
+                    <p className="font-sans text-center">Actividades vinculadas a la creación diseño y desarrollo front end, maquetación visual, usando HTML,CSS, JAVASCRIPT, REACT, TAILWIND, PHP, LARAVEL, BOOTSTRAP, WORDPRESS, CKAN, entre otras. También
+                     labores de mantenimiento y optimización de sitios web e interfaces de usuario, implemento prácticas que incluyen estructuras, 
                       bases de datos, adaptabilidad, SEO Onpage así como también de accesibilidad, además de la gestión de incidencias del mismo tipo.</p>
+                  </div>
+                  <div className="col-span-2 lg:col-span-2 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
+                  <span className="text-center">2016</span>
+                  <SubTitle subtitle="Lacteos optimus" />
+                    <p className="font-sans text-center">Actividades vinculadas al diseño del sitio web de la empresa usando Wordpress. 
+                    Así como labores de diseño gráfico: Banners, infografias, carteles, redes sociales .</p>
                   </div>
                   
           
