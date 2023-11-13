@@ -1,19 +1,20 @@
 import { useState, useEffect } from "react";
 
-const Progress = ({ done }) => {
+const Progress = ({ done, duration, delay }) => {
   const [style, setStyle] = useState({});
 
   useEffect(() => {
     const timer = setTimeout(() => {
       const newStyle = {
         opacity: 1,
-        width: `${done}%`
+        width: `${done}%`,
+        transition: `width ${duration}ms ease ${delay}ms`,
       };
       setStyle(newStyle);
     }, 200);
 
     return () => clearTimeout(timer); // Limpiar el temporizador al desmontar el componente
-  }, [done]);
+  }, [done, duration, delay]);
 
   return (
     <div className="progress bg-gray-300">
