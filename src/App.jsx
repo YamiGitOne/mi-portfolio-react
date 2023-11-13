@@ -68,10 +68,10 @@ const App = () => {
               className="dark:text-white"
               />
                 </div>
-                <div className="row-span-3 col-span-2 p-6 mx-auto">
+                <div className="row-span-1 lg:row-span-2 col-span-4 lg:col-span-2 p-6 mx-auto">
                 <span className="text-center"></span> 
                 <SubTitle 
-                subtitle="Skills Desarrollo FrontEnd" 
+                subtitle="Otras habilidades" 
                 className="text-white dark:text-white"
                 />
                     <SkillsData 
@@ -79,16 +79,20 @@ const App = () => {
                     />
                   </div>
                   
-                <div className="col-span-2 bg-gray-700 shadow-lg dark:bg-gray-700 dark:text-white p-6">
+                <div className="col-span-4 lg:col-span-2 bg-gray-700 shadow-lg dark:bg-gray-700 dark:text-white p-6">
+                <SubTitle 
+                subtitle="Skills Desarrollo FrontEnd" 
+                className="text-white dark:text-white"
+                />
                 <SkillsDisplay />
                   </div>
-                  <div className="col-span-1 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
+                  <div className="col-span-2 lg:col-span-1 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
                   <span className="text-center">2017-2023</span>
                   <SubTitle subtitle="Gomezlee Marketing" />
                     <p className="font-sans text-center">En Gomezlee Marketing realizo actividades vinculadas a la creación diseño y desarrollo front end enfocado al marketing. 
                     Landing pages para conversión mantenimiento y optimización de sitios web de grandes marcas.</p>
                   </div>
-                  <div className="col-span-1 lg:col-end-4 bg-cyan-200 dark:bg-gray-700 dark:text-white p-6">
+                  <div className="col-span-2 lg:col-span-1 lg:col-end-4 bg-cyan-200 dark:bg-gray-700 dark:text-white p-6">
                 <span className="text-center">2019-2023</span>
                 <SubTitle subtitle="Dynamic Opengov Thecnologies" />
                     <p className="font-sans text-center">En Ogov realizo actividades vinculadas a la creación diseño y desarrollo front end, maquetación visual, 
