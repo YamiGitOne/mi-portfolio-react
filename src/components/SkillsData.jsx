@@ -12,7 +12,7 @@ const skillsData = [
   { name: 'Laravel', icon: <LaravelIcon />, progressValue: 60 },
   { name: 'Wordpress', icon: <WordpressIcon />, progressValue: 80 },
   { name: 'Mysql', icon: <MysqlIcon />, progressValue: 80 },
-  { name: 'Java', icon: <JavaIcon />, progressValue: 80 },
+  { name: 'Java', icon: <JavaIcon />, progressValue: 50 },
 
   { name: 'Photoshop', icon: <PhotoshopIcon />, progressValue: 80 },
   { name: 'Illustrator', icon: <IllustratorIcon />, progressValue: 80 },
