@@ -32,12 +32,12 @@ const SkillDisplay = () => {
   return (
     <main className="w-full text-gray-100 bg-gray-700 place-content-center">
       <section className="p-6 space-y-6 bg-gray-700 rounded-xl md:grid md:grid-cols-2 md:gap-4 sm:space-y-0">
-        <div className="grid lg:grid-cols-2 gap-2 lg:gap-4">
+        <div className="grid grid-cols-3 lg:grid-cols-2 gap-2 lg:gap-4">
           {skills.map((skill) => (
             <button
               key={skill.title}
               onClick={() => handleSkillClick(skill)}
-              className={`px-4 py-2 lg:text-xl text-gray-100 transition bg-blue-600 rounded-md h-14 w-28 lg:w-44 hover:bg-blue-700 ${
+              className={`w-20 px-1 lg:px-4 py-2 text-sm lg:text-xl text-gray-100 transition bg-blue-600 rounded-md h-14 lg:w-44 hover:bg-blue-700 ${
                 currentSkill.title === skill.title ? 'font-bold ring-2 ring-gray-100' : ''
               }`}
             >

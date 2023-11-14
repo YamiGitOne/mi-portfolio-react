@@ -1,7 +1,9 @@
-const Title = ({ text }) => {
+import classNames from 'classnames';
+
+const Title = ({ text, className }) => {
   return (
     <>
-     <h1 className="header text-2xl font-sans lg:text-4xl sm:text-sm font-bold pb-2 pt-4 text-white">
+     <h1 className={classNames('header text-2xl font-sans lg:text-4xl sm:text-sm font-bold pb-2 pt-1 lg:pt-4 text-gray-900', className)}>
           {text}
           </h1>
     </>

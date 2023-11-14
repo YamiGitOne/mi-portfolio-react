@@ -20,8 +20,9 @@ const App = () => {
         <div className="col-span-4 text-left">
           <Title 
           text="Diseño soluciones"
+          className="text-white"
           />
-          <p className="text-left font-sans pb-2 pt-2 text-white"> sencillas para tus proyectos</p>
+          <p className="text-left font-sans pb-2 text-white"> sencillas para tus proyectos</p>
         </div>
        </div>
      
@@ -29,6 +30,10 @@ const App = () => {
         <div className="grid grid-cols-1 gap-1 lg:grid-cols-3 mb-1 -mt-8 inline-block align-middle">
         <div className="grid grid-rows-1 grid-flow-col gap-2">
               <div className="bg-teal-200 dark:bg-gray-700 dark:text-white p-6">
+              <Title 
+                text="Yamilet Jerez"
+                className="text-center"
+                />
                   <p className="font-sans text-center pt-4">Diseño de interfaces web a través de lenguajes de marca y lenguajes de programación, desde la arquitectura hasta el funcionamiento. Licenciada en Comunicación audiovisual con diplomatura en desarrollo web, en continuo aprendizaje como es lógico en mi área. Partiendo del diseño gráfico, maquetación con diferentes herramientas y desarrollo mediante el uso de Frameworks además Wordpress y otros CMS.</p>
               </div>
           </div>
@@ -91,20 +96,20 @@ const App = () => {
                 />
                 <SkillsDisplay />
                   </div>
-                  <div className="col-span-2 lg:col-span-1 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
+                  <div className="col-span-4 lg:col-span-1 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
                   <span className="text-center">2017-2023</span>
                   <SubTitle subtitle="Gomezlee Marketing" />
                     <p className="font-sans text-center">Actividades vinculadas a la creación diseño y desarrollo front end enfocado al marketing. Usando HTML, CSS, JAVASCRIPT, WORDPRESS. Diseño gráfico usando la suite de Adobe y labores de SEO, analíticas orgánicas, keywords y redes sociales
                     .También Landing pages para conversión mantenimiento y optimización de sitios web de grandes marcas.</p>
                   </div>
-                  <div className="col-span-2 lg:col-span-1 lg:col-end-4 bg-cyan-200 dark:bg-gray-700 dark:text-white p-6">
+                  <div className="col-span-4 lg:col-span-1 lg:col-end-4 bg-cyan-200 dark:bg-gray-700 dark:text-white p-6">
                 <span className="text-center">2019-2023</span>
                 <SubTitle subtitle="Dynamic Opengov Thecnologies" />
                     <p className="font-sans text-center">Actividades vinculadas a la creación diseño y desarrollo front end, maquetación visual, usando HTML,CSS, JAVASCRIPT, REACT, TAILWIND, PHP, LARAVEL, BOOTSTRAP, WORDPRESS, CKAN, entre otras. También
                      labores de mantenimiento y optimización de sitios web e interfaces de usuario, implemento prácticas que incluyen estructuras, 
                       bases de datos, adaptabilidad, SEO Onpage así como también de accesibilidad, además de la gestión de incidencias del mismo tipo.</p>
                   </div>
-                  <div className="col-span-2 lg:col-span-2 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
+                  <div className="col-span-4 lg:col-span-2 lg:col-start-2 bg-violet-200 dark:bg-gray-900 dark:text-white p-6">
                   <span className="text-center">2016</span>
                   <SubTitle subtitle="Lacteos optimus" />
                     <p className="font-sans text-center">Actividades vinculadas al diseño del sitio web de la empresa usando Wordpress. 
