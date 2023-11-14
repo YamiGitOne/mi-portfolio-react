@@ -32,7 +32,7 @@ const App = () => {
               <div className="bg-teal-200 dark:bg-gray-700 dark:text-white p-6">
               <Title 
                 text="Yamilet Jerez"
-                className="text-center"
+                className="text-center dark:text-white"
                 />
                   <p className="font-sans text-center pt-4">Diseño de interfaces web a través de lenguajes de marca y lenguajes de programación, desde la arquitectura hasta el funcionamiento. Licenciada en Comunicación audiovisual con diplomatura en desarrollo web, en continuo aprendizaje como es lógico en mi área. Partiendo del diseño gráfico, maquetación con diferentes herramientas y desarrollo mediante el uso de Frameworks además Wordpress y otros CMS.</p>
               </div>
