@@ -31,7 +31,7 @@ const App = () => {
         <div className="grid grid-rows-1 grid-flow-col gap-2">
               <div className="bg-teal-200 dark:bg-gray-700 dark:text-white p-6">
                 <h1 className="header text-4xl text-center font-extrabold dark:text-white font-sans lg:text-4xl sm:text-sm font-bold pb-2 pt-1 lg:pt-4 text-gray-900'">
-                 <span className="text-2xl lg:text-4xl text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600">Hola, soy {""}</span>
+                 <span className="text-2xl lg:text-4xl text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-50 dark:to-pink-400">Hola, soy {""}</span>
                  <br/> Yamilet Jerez
                 </h1>
                   <p className=" font-sans text-center pt-4">Diseño de interfaces web a través de lenguajes de marca y lenguajes de programación, desde la arquitectura hasta el funcionamiento. Licenciada en Comunicación audiovisual con diplomatura en desarrollo web, en continuo aprendizaje como es lógico en mi área. Partiendo del diseño gráfico, maquetación con diferentes herramientas y desarrollo mediante el uso de Frameworks además Wordpress y otros CMS.</p>
