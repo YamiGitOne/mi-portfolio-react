@@ -26,10 +26,12 @@ const Skills = () => {
           <li key={index} className="bg-white dark:bg-gray-300 p-4">
             <span className="text-2xl">{skill.icon}</span>
             <div>
+              <div>
               <h3 className="text-lg dark:text-gray-900 font-medium">{skill.name}</h3>
               <Progress
                 done={skill.progressValue} 
               />
+              </div>
             </div>
           </li>
         ))}

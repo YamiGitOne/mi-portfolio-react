@@ -23,7 +23,7 @@ const SkillDisplay = () => {
     percent: 95,
   });
 
-  const circumference = (2 * 22 / 7) * 120;
+  const circumference = (2 * 22 / 7) * 100;
 
   const handleSkillClick = (skill) => {
     setCurrentSkill(skill);
@@ -48,14 +48,14 @@ const SkillDisplay = () => {
 
         <div className="flex items-center justify-center" style={{ position: 'relative' }}>
           <svg className="transform -rotate-90 w-72 h-72">
-            <circle cx="145" cy="145" r="120" stroke="currentColor" strokeWidth="30" fill="transparent" className="text-gray-100" />
+            <circle cx="145" cy="145" r="98" stroke="currentColor" strokeWidth="30" fill="transparent" className="text-gray-100" />
 
             <circle
               cx="145"
               cy="145"
-              r="120"
+              r="98"
               stroke="currentColor"
-              strokeWidth="30"
+              strokeWidth="27"
               fill="transparent"
               strokeDasharray={circumference}
               strokeDashoffset={circumference - (currentSkill.percent / 100) * circumference}
