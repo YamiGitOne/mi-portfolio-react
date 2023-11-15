@@ -72,16 +72,13 @@ const App = () => {
                   </div>
               <SubTitle 
               subtitle="Experiencia" 
-              className="dark:text-white"
+              className="dark:text-white hidden lg:visible"
               />
               {/* Agregar boton para descargar CV */}
                 </div>
                 <div className="row-span-1 lg:row-span-2 col-span-4 lg:col-span-2 p-6 mx-auto">
                 <span className="text-center"></span> 
-                <SubTitle 
-                subtitle="Otras habilidades" 
-                className="text-white dark:text-white"
-                />
+
                     <SkillsData 
                     className="dark:text-white"
                     />
