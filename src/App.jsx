@@ -44,7 +44,7 @@ const App = () => {
                 <p className="text-center">Dentro de las competencias adquiridas en mi carrera se encuentran la fotografía, edición de videos, guiones para radio cine y tv, locución de radio y el manejo de programas de edición entre los que destaca Adobe Premiere, After Effects</p>
                   </div>
 
-                  <div className="col-span-2 col-end-4 gap-2 bg-violet-200 dark:bg-gray-700 dark:text-white p-6">
+                  <div className="col-span-2 col-end-2 lg:col-end-4 gap-2 bg-violet-200 dark:bg-gray-700 dark:text-white p-6">
                   <SubTitle subtitle="Diseño web" />
                     <p className="text-center">Destreza en el uso de herramientas de diseño y maquetación de la suite de Adobe tales como Illustrator, Photoshop así como también Figma, Canva </p>
                     
