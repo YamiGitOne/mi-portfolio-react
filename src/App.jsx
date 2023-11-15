@@ -47,9 +47,6 @@ const App = () => {
                   <div className="col-span-2 col-end-2 lg:col-end-4 gap-2 bg-violet-200 dark:bg-gray-700 dark:text-white p-6">
                   <SubTitle subtitle="Diseño web" />
                     <p className="text-center">Destreza en el uso de herramientas de diseño y maquetación de la suite de Adobe tales como Illustrator, Photoshop así como también Figma, Canva </p>
-                    
-                    
-                  
                   </div>
           </div>
 
