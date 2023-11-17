@@ -5,7 +5,7 @@ const projectsData = [
     id: 1,
     title: "React Porfolio Website",
     description: "Project 1 description",
-    image: "./assets/images/bg-mobile-dark.jpg",
+    image: "/public/images/projects/1.png",
     tag: ["All", "Web"],
     },
     {
