@@ -5,6 +5,7 @@ import AccountImage from "./components/AccountImage";
 import SkillsData from "./components/SkillsData";
 import SkillsDisplay from "./components/SkillsDisplay";
 import NavBar from "./components/NavBar";
+import ProjectsSection from "./components/ProjectsSection";
 
 const App = () => {
   return (
@@ -117,7 +118,7 @@ const App = () => {
                   
 </div>
 
-      
+
 </div>
 
   )

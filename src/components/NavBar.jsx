@@ -13,7 +13,7 @@ const NavBar = () => {
                     name={open ? 'close' : 'menu'}
                     />
                 </div>
-                <div className="shadow-md w-full fixed ">
+                <div className="shadow-md w-full absolute pt-2 ">
                 <ul className={`inline lg:flex absolute lg:static bg-white lg:z-auto z[-1] lg:mt-36 mt-48
                 right-0 w-full lg:w-auto pt-2 pb-3 lg:pb-2 pl-9 lg:pl-4 
                 transition-all-duration-500 ease-in ${open ? 'top[-20] opacity-100' : 'top[-200]'} lg:opacity-100 opacity-0`}>
