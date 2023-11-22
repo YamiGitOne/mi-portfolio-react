@@ -3,78 +3,78 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
     {
     id: 1,
-    title: "Gómez Lee Marketing",
-    description: "Web Site institucional, responsive, diseñado en Wordpress. ",
-    image: "GLM",
+    title: "Wordpress",
+    description: "Sitios web adaptables, enfocados a afianzar la marca, SEO y conversión. Diseñado en Wordpress, uso de plugins. ",
+    image: "WordpressProjects",
     tag: ["All", "Web"],
     },
     {
     id: 2,
-    title: "Vozez",
-    description: "Project 2 description",
-    image: "vozez.png",
+    title: "Laravel, PHP",
+    description: "Proyectos en los en algunos casos he diseñado el front con bootstrap, componentes y en otros también el backend, base de datos MysQly",
+    image: "LaravelProjects",
     tag: ["All", "Web"],
     },
     {
     id: 3,
-    title: "oGov",
-    description: "Project 3 description",
-    image: "oGov.png",
+    title: "React",
+    description: "Proyectos desarrollados con React, Next, Vite, Tailwind, GraphQL, MongoDB",
+    image: "ReactProjects",
     tag: ["All", "Web"],
     },
     {
     id: 4,
-    title: "Transparencia",
-    description: "Project 4 description",
-    image: "pt.png",
+    title: "Maquetación",
+    description: "Proyectos maquetados usando Figma",
+    image: "MaquetacionProjects",
     tag: ["All", "Web"],
     },
     {
     id: 5,
-    title: "Obras",
-    description: "Project 5 description",
-    image: "pt.png",
+    title: "Java",
+    description: "Proyecto desarrollado en Java, POO, Mysql, DAO, Swing",
+    image: "JavaProjects",
     tag: ["All", "Web"],
     },
     {
     id: 6,
-    title: "Whirpooll",
-    description: "Project 6 description",
-    image: "whirpooll.png",
+    title: "Angular",
+    description: "Proyectos desarrollado Angular, Laravel, Mysql, Bootstrap",
+    image: "AngularProject",
     tag: ["All", "Web"],
     },
     {
     id: 7,
-    title: "Arena gorda",
-    description: "Project 7 description",
-    image: "constructora.png",
+    title: "Diseño gráfico",
+    description: "Proyectos desrrollados usando la suite de Adobe. Photoshop, Illustrator, Premiere",
+    image: "GraphDesingProjects",
     tag: ["All", "Web"],
     },
     {
     id: 8,
     title: "Prestashop",
-    description: "Project 8 description",
-    image: "prestashop.png",
+    description: "Proyecto usando CMS Prestashop",
+    image: "PrestashopProjects",
     tag: ["All", "Web"],
     },
     {
     id: 9,
-    title: "Suscription site",
-    description: "Project 9 description",
-    image: "suscription.png",
+    title: "Otros CMS",
+    description: "Proyectos usando Ckan, Consul",
+    image: "OtrosCMS",
     tag: ["All", "Web"],
     },
     {
     id: 10,
-    title: "API clientes",
-    description: "Project 10 description",
-    image: "clientes.png",
+    title: "En curso",
+    description: "Proyectos en curso",
+    image: "EnCurso",
     tag: ["All", "Web"],
     }
 ]
 const ProjectsSection = () => {
     return(
-        <div className="md:container md:mx-auto">
+        <div className="md:container md:mx-auto mt-4">
         <div className="lg:inline-flex lg:flex-wrap ">
             {projectsData.map((projects) => <ProjectCard key={projects.id} title={projects.title} description={projects.description} imageUrl={projects.image} />)}
         </div>
