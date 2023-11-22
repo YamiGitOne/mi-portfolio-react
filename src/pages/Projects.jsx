@@ -1,8 +1,8 @@
-import Header from "./components/Header";
-import Title from "./components/Title";
-import AccountImage from "./components/AccountImage";
-import NavBar from "./components/NavBar";
-import ProjectsSection from "./components/ProjectsSection";
+import Header from "../components/Header";
+import Title from "../components/Title";
+import AccountImage from "../components/AccountImage";
+import NavBar from "../components/NavBar";
+import ProjectsSection from "../components/ProjectsSection";
 
 const Projects = () => {
   return (

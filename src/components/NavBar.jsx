@@ -2,7 +2,8 @@ import { useState } from "react";
 import {FaBars} from "react-icons/fa"
 const NavBar = () => {
     let Links =[
-        {name:"Acerca de mi", link:"/#"}
+        {name:"Inicio", link:"/"},
+        {name:"Projects", link:"/projects"}
     ];
     let [open, setOpen]=useState(false);
     return (
