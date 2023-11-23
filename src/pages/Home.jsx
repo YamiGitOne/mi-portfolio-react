@@ -5,18 +5,11 @@ import AccountImage from "../components/AccountImage";
 import SkillsData from "../components/SkillsData";
 import SkillsDisplay from "../components/SkillsDisplay";
 import NavBar from "../components/NavBar";
-/* import Form from "../components/Form"; */
 
 const Home = () => {
-    /* const onSubmit = values => {
-        console.log(values)
-    } */
     return (
-    
-        <div className="pt-4 bg-gray-300 dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] bg-cover h-44 bg-no-repeat bg-[url('./assets/images/bg-mobile-light.jpg')]">
+        <div className="pt-3 bg-gray-300 dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] bg-cover h-44 bg-no-repeat bg-[url('./assets/images/bg-mobile-light.jpg')]">
         <Header />
-        
-           
            <div className="flex grid-cols-6 gap-4 mb-14">
            <NavBar />
             <div className="col-span-1"></div>
@@ -30,10 +23,7 @@ const Home = () => {
               />
               <p className="text-left font-sans pb-2 text-white"> sencillas para tus proyectos</p>
             </div>
-            
            </div>
-          
-           
             <div className="grid grid-cols-1 gap-1 lg:grid-cols-3 mb-1 -mt-8 align-middle">
             <div className="grid grid-rows-1 grid-flow-col gap-2">
                   <div className="bg-teal-200 dark:bg-gray-700 dark:text-white p-6">
@@ -120,12 +110,6 @@ const Home = () => {
                       </div>
                       
     </div>
-
-    {/* 
-     */}
-
-
-
     </div>
     
       )
