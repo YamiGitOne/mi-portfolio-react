@@ -3,7 +3,7 @@ import {FaBars} from "react-icons/fa"
 const NavBar = () => {
     let Links =[
         {name:"Inicio", link:"/"},
-        {name:"Projects", link:"/projects"}
+        {name:"Proyectos", link:"/Projects"}
     ];
     let [open, setOpen]=useState(false);
     return (
