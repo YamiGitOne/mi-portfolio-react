@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {FaBars} from "react-icons/fa"
+import {FaBars} from "react-icons/fa";
 const NavBar = () => {
     let Links =[
         {name:"Inicio", link:"/"},
