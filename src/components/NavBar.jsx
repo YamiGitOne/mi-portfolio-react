@@ -1,9 +1,11 @@
+import { Link } from 'react-router-dom';
 import { useState } from "react";
 import {FaBars} from "react-icons/fa";
 const NavBar = () => {
     let Links =[
-        {name:"Inicio", link:"/"},
-        {name:"Proyectos", link:"/Projects"}
+        { name: "Inicio", link: "/" },
+  { name: "Proyectos", link: "/proyectos" },
+  { name: "Contacto", link: "/contacto" },
     ];
     let [open, setOpen]=useState(false);
     return (
@@ -22,7 +24,7 @@ const NavBar = () => {
                     {
                         Links.map((link)=>(
                             <li key={link.name} className="text-xl pl-4 my-7 lg:my-0">
-                                <a className="text-gray-800 hover:text-blue-600 duration-500" href={link.link}>{link.name}</a>
+                               <Link className="text-gray-800 hover:text-blue-600 duration-500" to={link.link}>{link.name}</Link>
                             </li>
                         ))
                     }

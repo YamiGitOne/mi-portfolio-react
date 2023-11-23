@@ -1,13 +1,11 @@
+import { Contact } from "../components/Contact";
 import Header from "../components/Header";
 import Title from "../components/Title";
 import AccountImage from "../components/AccountImage";
 import NavBar from "../components/NavBar";
-import ProjectsSection from "../components/ProjectsSection";
 
-const Projects = () => {
-  
-  return (
-    
+const ContactPage = () => {
+return (
     <div className="pt-4 bg-gray-300 dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] bg-cover h-44 bg-no-repeat bg-[url('./assets/images/bg-mobile-light.jpg')]">
     <Header />
     
@@ -28,9 +26,9 @@ const Projects = () => {
         
        </div>
       
-<ProjectsSection />
+<Contact />
 </div>
 
   )
 }
-export default Projects;
+export default ContactPage;
