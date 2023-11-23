@@ -74,7 +74,7 @@ const projectsData = [
 ]
 const ProjectsSection = () => {
     return(
-        <div className="md:container md:mx-auto mt-4">
+        <div className="md:container md:mx-auto mt-4 dark:bg-gray-900">
         <div className="lg:inline-flex lg:flex-wrap ">
             {projectsData.map((projects) => <ProjectCard key={projects.id} title={projects.title} description={projects.description} imageUrl={projects.image} />)}
         </div>

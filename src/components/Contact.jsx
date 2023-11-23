@@ -21,9 +21,9 @@ const Contact = () => {
 
   return (
     
-    <div className='bg-gray-100 grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible'>
-       <h1 className='font-bold font-sans pb-2 pt-4 text-center lg:text-2xl text-xl'>Contacto</h1>
-       <h2 className='text-center'>Gracias por tu interés. Por ahora el formulario esta desactivado. Si quieres contactarme puedes hacerlo al correo<br/><strong>quieromiwww@gmail.com</strong><br/> 603.35.89.96</h2>
+    <div className='bg-gray-100 dark:bg-black grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible'>
+       <h1 className='text-gray-900 dark:text-white font-bold font-sans pb-2 pt-4 text-center lg:text-2xl text-xl'>Contacto</h1>
+       <h2 className='text-center text-gray-900 dark:text-white'>Gracias por tu interés. Por ahora el formulario esta desactivado. Si quieres contactarme puedes hacerlo al correo<br/><strong>quieromiwww@gmail.com</strong><br/> 603.35.89.96</h2>
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
