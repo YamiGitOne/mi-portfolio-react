@@ -5,7 +5,7 @@ const SkillDisplay = () => {
     { title: 'HTML', percent: 90 },
     { title: 'CSS', percent: 90 },
     { title: 'JavaScript', percent: 70 },
-    { title: 'React', percent: 30 },
+    { title: 'React', percent: 40 },
     { title: 'Tailwind', percent: 50 },
     { title: 'Bootstrap', percent: 90 },
     { title: 'Typescript', percent: 10 },
