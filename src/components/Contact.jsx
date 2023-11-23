@@ -3,7 +3,12 @@ import * as Yup from 'yup';
 
 const Contact = () => {
   const onSubmit = (values) => {
-    console.log(values);
+    try {
+      console.log(values);
+      throw new Error('Fallo en el envío');
+    } catch (error) {
+      ErrorMessage('Error al enviar el formulario. Por favor, inténtalo de nuevo.'); 
+    }
   };
 
   const initialValues = { name: '', email: '', message: '' };
@@ -18,6 +23,7 @@ const Contact = () => {
     
     <div className='bg-gray-100 grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible'>
        <h1 className='font-bold font-sans pb-2 pt-4 text-center lg:text-2xl text-xl'>Contacto</h1>
+       <h2 className='text-center'>Gracias por tu interés. Por ahora el formulario esta desactivado. Si quieres contactarme puedes hacerlo al correo <strong>quieromiwww@gmail.com</strong><br/> 603.35.89.96</h2>
       <Formik
         initialValues={initialValues}
         validationSchema={validationSchema}
@@ -25,7 +31,7 @@ const Contact = () => {
       >
         
         {({ values, handleChange, handleSubmit }) => (
-          <Form className='bg-white p-4 mt-8 mb-2 w-80 max-w-screen-lg sm:w-96' onSubmit={handleSubmit} netlify>
+          <Form className='bg-white p-4 mt-8 mb-2 w-80 max-w-screen-lg sm:w-96' onSubmit={handleSubmit} netlify="true">
             
             <div className='relative flex flex-col bg-clip-border rounded-xl bg-transparent text-gray-700 shadow-none'>
             <div className='text-center'>
