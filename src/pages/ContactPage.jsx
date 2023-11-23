@@ -8,7 +8,7 @@ const ContactPage = () => {
 return (
     <div className="pt-3 bg-gray-300 dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] bg-cover h-44 bg-no-repeat bg-[url('./assets/images/bg-mobile-light.jpg')]">
     <Header />
-       <div className="flex grid-cols-6 gap-4 mb-4">
+       <div className="flex grid-cols-6 gap-4 mb-6">
        <NavBar />
         <div className="col-span-1"></div>
         <div className="w-40 align-middle pb-2 z-10">
