@@ -6,6 +6,9 @@ import SkillsData from "../components/SkillsData";
 import SkillsDisplay from "../components/SkillsDisplay";
 import NavBar from "../components/NavBar";
 
+//configurar esLint
+  //agregar boton descargar CV
+  //agregar cada vez que pinche en alguna destreza una lista de elementos que domino o un boton de ver mas detalles en cada uno
 const Home = () => {
     return (
         <div className="pt-3 bg-gray-300 dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] bg-cover h-44 bg-no-repeat bg-[url('./assets/images/bg-mobile-light.jpg')]">
