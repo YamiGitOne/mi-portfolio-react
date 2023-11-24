@@ -6,7 +6,7 @@ const SkillDisplay = () => {
     { title: 'HTML', percent: 90, element: 'Accesibilidad, HTML semántico, Formularios y Validaciones, SEO'},
     { title: 'CSS', percent: 90, element: 'Animaciones, Grid, flexbox, Diseño web adaptable'},
     { title: 'JavaScript', percent: 70, element: 'Colecciones con clave, JSON, Bucles e iteraciones, JavaScript asincrónico, Módulos, Herramientas de desarrollo'},
-    { title: 'React', percent: 40, element: 'Vite, Components, JSX, Props vs State, Common Hooks, Lists and Keys, React Router, GraphQL: Apollo, Frameworks, Formik, API Calls'},
+    { title: 'React', percent: 40, element: 'Vite, Components, JSX, Props, State, Common Hooks, Lists and Keys, React Router, GraphQL: Apollo, Frameworks, Formik, API Calls'},
     { title: 'Tailwind', percent: 50, element: 'Dark Mode, focus states, Responsive, Grid, Components'},
     { title: 'Bootstrap', percent: 90, element: 'complementos, componentes y sistemas de cuadrícula, variables CSS'},
     { title: 'Typescript', percent: 10, element: 'Tipificación estructural'},
@@ -92,7 +92,7 @@ const SkillDisplay = () => {
             className="w-60 mr-2 lg:mr-0 px-1 lg:px-4 py-2 text-sm lg:text-l text-gray-900 transition bg-white rounded-md h-14 lg:w-44 hover:bg-blue-200"
             onClick={openModal}
           >
-            Ver conocimientos de {currentSkill.title}
+            Ver conocimientos de <strong>{currentSkill.title}</strong>
           </button>
 
           <Transition show={isModalOpen} >
