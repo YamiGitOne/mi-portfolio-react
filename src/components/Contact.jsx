@@ -8,7 +8,7 @@ const Contact = () => {
       alert('El formulario se envió correctamente');
       throw new Error('Fallo en el envío');
     } catch (error) {
-      ErrorMessage('Error al enviar el formulario. Por favor, inténtalo de nuevo.'); 
+      ErrorMessage('Error al enviar el formulario. Por ahora el servicio no está activo.'); 
     }
   };
 
