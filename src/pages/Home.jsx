@@ -6,7 +6,6 @@ import SkillsData from '../components/SkillsData'
 import SkillsDisplay from '../components/SkillsDisplay'
 import NavBar from '../components/NavBar'
 
-//configurar esLint
 //agregar boton descargar CV
 const Home = () => {
   return (
