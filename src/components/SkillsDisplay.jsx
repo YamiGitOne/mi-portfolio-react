@@ -27,9 +27,7 @@ const SkillDisplay = () => {
   const closeModal = () => {
     setIsModalOpen(false);
   };
-  //configurar esLint
-  //agregar boton descargar CV
-  //agregar cada vez que pinche en alguna destreza una lista de elementos que domino o un boton de ver mas detalles en cada uno
+ 
   const [currentSkill, setCurrentSkill] = useState({
     title: 'HTML',
     percent: 95,
