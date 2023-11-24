@@ -1,24 +1,23 @@
-import { useState } from "react";
+import { useState } from 'react'
 
 const Form = ({ children, initialState, onSubmit }) => {
-    const [values, setValues]  = useState(initialState);
-    
+  const [values, setValues] = useState(initialState)
 
-    const handleChange = (e) => {
-        const { name, value, checked, type } = e.target;
+  const handleChange = e => {
+    const { name, value, checked, type } = e.target
 
-        setValues((prev) => ({
-          ...prev,
-          [name]: type === "checkbox" ? checked : value,
-        }));
-      };
+    setValues(prev => ({
+      ...prev,
+      [name]: type === 'checkbox' ? checked : value,
+    }))
+  }
 
-      const handleSubmit = e => {
-        e.preventDefault();
-        onSubmit(values);
-      };
+  const handleSubmit = e => {
+    e.preventDefault()
+    onSubmit(values)
+  }
 
-      return children({values, handleChange, handleSubmit});
-};
+  return children({ values, handleChange, handleSubmit })
+}
 
-export default Form;
+export default Form
