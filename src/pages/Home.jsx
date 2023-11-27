@@ -9,7 +9,7 @@ import NavBar from '../components/NavBar'
 //agregar boton descargar CV
 const Home = () => {
   return (
-    <div className="pt-3 bg-gray-300 dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] bg-cover h-44 bg-no-repeat bg-[url('./assets/images/bg-mobile-light.jpg')]">
+    <div className="pt-3 bg-gray-300 dark:bg-gray-900 dark:bg-[url('./assets/images/bg-mobile-dark.jpg')] dark:lg:bg-[url('./assets/images/bg-desktop-dark.jpg')] bg-cover h-44 bg-no-repeat bg-[url('./assets/images/bg-mobile-light.jpg')] lg:bg-[url('./assets/images/bg-desktop-light.jpg')]">
       <Header />
       <div className='flex grid-cols-6 gap-4 mb-14'>
         <NavBar />
