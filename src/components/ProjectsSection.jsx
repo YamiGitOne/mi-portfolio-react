@@ -14,7 +14,7 @@ const projectsData = [
     title: 'Laravel, PHP',
     description:
       'Proyectos en los en algunos casos he diseñado el front con bootstrap, componentes y en otros también el backend, base de datos MysQly',
-    image: 'LaravelProjects',
+    image: 'transparencia-LARAVEL',
     tag: ['All', 'Web'],
   },
   {
