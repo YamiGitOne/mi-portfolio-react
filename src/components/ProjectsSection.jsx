@@ -42,7 +42,7 @@ const projectsData = [
   {
     id: 6,
     title: 'Angular',
-    description: 'Proyectos desarrollado Angular, Laravel, Mysql, Bootstrap',
+    description: 'Proyectos desarrollado Angular, Laravel, MySQLi, Bootstrap',
     image: 'AngularProject',
     tag: ['All', 'Web'],
   },
