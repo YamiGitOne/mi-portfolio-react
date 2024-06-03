@@ -5,15 +5,15 @@ const projectsData = [
     id: 1,
     title: 'Wordpress',
     description:
-      'Sitios web adaptables, enfocados a afianzar la marca, SEO y conversión. Diseñado en Wordpress, uso de plugins. ',
+      'Sitios web adaptables, enfocados a afianzar la marca, SEO y conversión. Diseñado en Wordpress, uso de plugins, temas hijo, Elementor. ',
     image: 'WordpressProjects',
     tag: ['All', 'Web'],
   },
   {
     id: 2,
-    title: 'Laravel, PHP',
+    title: 'Laravel, PHP, Bootstrap',
     description:
-      'Proyectos en los en algunos casos he diseñado el front con bootstrap, componentes y en otros también el backend, base de datos MysQly',
+      'Proyectos desarrollo front Laravel + bootstrap, MVC, componentes, Livewire, D3js. Colaboración en backend y base de datos MysQly',
     image: 'Transparencia-LARAVEL',
     tag: ['All', 'Web'],
   },
